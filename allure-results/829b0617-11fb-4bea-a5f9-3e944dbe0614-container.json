@@ -1,0 +1,1 @@
+{"uuid":"829b0617-11fb-4bea-a5f9-3e944dbe0614","name":"project.TestBase.logout","children":["be679f24-3ebd-4394-bc3d-279c6209aa88"],"description":"","befores":[],"afters":[{"name":"logout","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1667996196356,"stop":1667996196936}],"start":1667996196356,"stop":1667996196936}
