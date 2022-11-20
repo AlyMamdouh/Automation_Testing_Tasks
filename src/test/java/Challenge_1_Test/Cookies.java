@@ -1,4 +1,4 @@
-package project;
+package Challenge_1_Test;
 
 import org.openqa.selenium.Cookie;
 
@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.Date;
 import java.util.StringTokenizer;
 
-import static project.TestBase.AlyDriver;
+import static Challenge_1_Test.TestBase_1.AlyDriver;
 
 public class Cookies
 

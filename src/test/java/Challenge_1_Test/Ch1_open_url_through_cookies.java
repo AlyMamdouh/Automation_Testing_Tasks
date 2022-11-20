@@ -1,22 +1,23 @@
-package project;
+package Challenge_1_Test;
 
+import Challenge_1_Main.Orange_Page;
 import Stage2.HomePage;
 import org.openqa.selenium.WindowType;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class Ch1_open_url_through_cookies extends TestBase {
+public class Ch1_open_url_through_cookies extends TestBase_1 {
 
     //fe el Testbase .. e3mlhom @BeforeClass w @AfterClass
 
     Cookies cokObj;
 
-    HomePage Orange;
+    Orange_Page Orange;
 
     @Test (priority = 1)
     public void signin_Valid() throws InterruptedException, IOException {
-        Orange = new HomePage(AlyDriver);
+        Orange = new Orange_Page(AlyDriver);
         Orange.Login_Valid();
         Thread.sleep(2000);
 

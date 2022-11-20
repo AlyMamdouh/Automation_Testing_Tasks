@@ -39,8 +39,8 @@ public class TestBase
 
 
     @BeforeMethod
-    @Parameters ({"Browser"})
-    public void startDriver(@Optional("Chrome") String BrowserName)
+    @Parameters ({"Browser", "BaseURL"})
+    public void startDriver(@Optional("Chrome") String BrowserName, String BaseURL)
     {
         if (BrowserName.equalsIgnoreCase("Chrome"))
         {
@@ -72,7 +72,7 @@ public class TestBase
         AlyDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         //هيستنى 15 ث علشان الويب ايليمنتس تحمل .. عدت 15ث و محملتش هيدي اكسبشن ايرور .. حملت وسط ال15ث هيكمل باقي الكود
 
-        AlyDriver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        AlyDriver.navigate().to(BaseURL);
         AlyDriver.manage().window().maximize();
 
     }
