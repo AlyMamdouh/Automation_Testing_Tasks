@@ -4,7 +4,7 @@ import Challenge_3_Main.JQuery_Page;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class Ch3_JQuery extends TestBase_3
+public class Ch3_JQuery_DoubleClick extends TestBase_3
 {
     JQuery_Page JQuery;
 
