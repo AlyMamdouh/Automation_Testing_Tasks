@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 
 public class Ch3_JQuery extends TestBase_3
 {
-
     JQuery_Page JQuery;
 
     @Test
