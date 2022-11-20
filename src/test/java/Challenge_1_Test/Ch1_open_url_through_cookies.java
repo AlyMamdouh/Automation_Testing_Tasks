@@ -1,11 +1,10 @@
 package Challenge_1_Test;
 
 import Challenge_1_Main.Orange_Page;
-import Stage2.HomePage;
 import org.openqa.selenium.WindowType;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
+
 
 public class Ch1_open_url_through_cookies extends TestBase_1 {
 
