@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class open_url_through_cookies extends TestBase {
+public class Ch1_open_url_through_cookies extends TestBase {
 
     //fe el Testbase .. e3mlhom @BeforeClass w @AfterClass
 
