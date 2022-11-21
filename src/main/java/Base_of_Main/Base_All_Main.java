@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 public class Base_All_Main {
-    WebDriver  AlyDriver;
+    protected static WebDriver  AlyDriver;
     public Base_All_Main(WebDriver  AlyDriver)
     {
         PageFactory.initElements(AlyDriver, this);
