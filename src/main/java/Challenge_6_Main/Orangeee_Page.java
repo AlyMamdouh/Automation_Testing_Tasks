@@ -3,7 +3,6 @@ package Challenge_6_Main;
 import Base_of_Main.Base_All_Main;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 
@@ -48,14 +47,5 @@ public class Orangeee_Page extends Base_All_Main {
 
     }
 
-//    public void OpenRecruitment_Vacancies() throws InterruptedException {
-//        Recruitment.click();
-//
-//
-//        Actions action = new Actions(AlyDriver);
-//        action.moveToElement(Vacancies).perform();
-//        Thread.sleep(2000);
-//        Vacancies.click();
-//    }
 
 }
