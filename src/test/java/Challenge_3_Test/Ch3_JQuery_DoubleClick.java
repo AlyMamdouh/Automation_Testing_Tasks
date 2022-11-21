@@ -9,7 +9,7 @@ public class Ch3_JQuery_DoubleClick extends TestBase_3
     JQuery_Page JQuery;
 
     @Test
-    public void DoubleClick() throws InterruptedException {
+    public void DoubleClick() {
         JQuery = new JQuery_Page(AlyDriver);
         AlyDriver.switchTo().frame(0);
 
