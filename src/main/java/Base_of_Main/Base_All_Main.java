@@ -1,19 +1,18 @@
-package Stage2;
+package Base_of_Main;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-public class PageBase {
-    protected WebDriver AlyDriver;
-
-    public PageBase(WebDriver AlyDriver) {
+public class Base_All_Main {
+    WebDriver  AlyDriver;
+    public Base_All_Main(WebDriver  AlyDriver)
+    {
         PageFactory.initElements(AlyDriver, this);
     }
 
-
-    //Static Method for clicking
-    protected static void ClickButton(WebElement button) {
+    public static void ClickButton(WebElement button)
+    {
         button.click();
     }
 }

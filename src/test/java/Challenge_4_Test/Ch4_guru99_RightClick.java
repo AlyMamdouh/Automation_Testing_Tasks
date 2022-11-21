@@ -2,7 +2,6 @@ package Challenge_4_Test;
 
 import Challenge_4_Main.guru99_Page;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -22,11 +21,8 @@ public class Ch4_guru99_RightClick extends TestBase_4
 
 
         Alert alert = AlyDriver.switchTo().alert();
-
         String alertText = alert.getText();
-
         Assert.assertEquals("clicked: edit", alertText);
-
         alert.accept();
 
 

@@ -1,10 +1,11 @@
 package Stage2;
 
+import Base_of_Main.Base_All_Main;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage extends PageBase {
+public class HomePage extends Base_All_Main {
     @FindBy(name = "username")
     WebElement username;
 
