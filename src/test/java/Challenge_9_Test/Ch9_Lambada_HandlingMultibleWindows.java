@@ -1,5 +1,6 @@
-package Challenge_9_Main.Challenge_9_Test;
+package Challenge_9_Test;
 
+import Challenge_8_Main.monster_Page;
 import Challenge_9_Main.Lambada_Page;
 import org.testng.annotations.Test;
 

@@ -1,4 +1,4 @@
-package Challenge_9_Main.Challenge_9_Test;
+package Challenge_9_Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
