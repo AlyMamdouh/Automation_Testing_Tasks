@@ -19,18 +19,18 @@ public class JQueryy_Page extends Base_All_Main
     @FindBy (xpath = "//*[@id=\"droppable\"]")
     public  WebElement DropHere;
 
-
-    public void DragAndDrop() throws InterruptedException {
-        Actions act=new Actions(AlyDriver);
-        act.clickAndHold(DragMe).build().perform();
-        Thread.sleep(1000);
-        act.moveToElement(DropHere).build().perform();
-        Thread.sleep(1000);
-        act.release(DropHere).build().perform();
-        Thread.sleep(1000);
-
-
-    }
+//
+//    public void ZeftDragAndDrop() throws InterruptedException {
+//        Actions act=new Actions(AlyDriver);
+//        act.clickAndHold(DragMe).build().perform();
+//        Thread.sleep(1000);
+//        act.moveToElement(DropHere).build().perform();
+//        Thread.sleep(1000);
+//        act.release(DropHere).build().perform();
+//        Thread.sleep(1000);
+//
+//
+//    }
 
 
 }

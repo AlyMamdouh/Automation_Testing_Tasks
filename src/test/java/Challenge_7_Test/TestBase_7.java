@@ -45,11 +45,11 @@ public class TestBase_7 {
 
     /////**************************************************************************************************************/////
 
-    @AfterClass
-
-    public void logout() {
-        AlyDriver.quit();
-    }
+//    @AfterClass
+//
+//    public void logout() {
+//        AlyDriver.quit();
+//    }
 
 
 }
