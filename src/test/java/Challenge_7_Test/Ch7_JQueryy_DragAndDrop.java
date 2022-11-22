@@ -12,6 +12,7 @@ public class Ch7_JQueryy_DragAndDrop extends TestBase_7
     @Test
     public void Dragging_Dropping() throws InterruptedException
     {
+
         JQueryy = new JQueryy_Page(AlyDriver);
 
 
@@ -23,7 +24,9 @@ public class Ch7_JQueryy_DragAndDrop extends TestBase_7
         Assert.assertEquals("Dropped!", JQueryy.DropHere.getText());
 
 
-        //        JQueryy.ZeftDragAndDrop();
+//            JQueryy.ZeftDragAndDrop();
+
+
 
 
     }
