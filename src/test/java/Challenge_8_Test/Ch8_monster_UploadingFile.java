@@ -14,7 +14,6 @@ public class Ch8_monster_UploadingFile extends TestBase_8
     {
         monster = new monster_Page(AlyDriver);
 
-
         monster.ChooseCV.sendKeys("C:\\Users\\aabdelhamid\\Desktop\\Automation\\Automation.docx");
 
     }
