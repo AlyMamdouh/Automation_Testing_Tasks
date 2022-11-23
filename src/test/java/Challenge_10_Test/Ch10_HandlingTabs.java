@@ -26,6 +26,8 @@ public class Ch10_HandlingTabs extends TestBase_10{
 
     }
 
+
+
     @Test (priority = 2)
     public void OpenInNewWindow() throws InterruptedException
     {
@@ -36,5 +38,6 @@ public class Ch10_HandlingTabs extends TestBase_10{
         AlyDriver.navigate().to(originalWindow);
 
     }
+
 
 }
