@@ -1,4 +1,4 @@
-package Challenge_10_Test.Challenge_12_Test;
+package Challenge_12_Test;
 
 import Challenge_12_Main.Amazon_page;
 import org.openqa.selenium.JavascriptExecutor;
