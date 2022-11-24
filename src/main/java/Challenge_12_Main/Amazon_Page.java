@@ -5,9 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Amazon_page extends Base_All_Main
+public class Amazon_Page extends Base_All_Main
 {
-    public Amazon_page(WebDriver AlyDriver) {super(AlyDriver);}
+    public Amazon_Page(WebDriver AlyDriver) {super(AlyDriver);}
 
     @FindBy(id ="nav-link-accountList")
     public WebElement Hellobtn;
