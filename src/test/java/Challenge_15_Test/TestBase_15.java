@@ -1,4 +1,4 @@
-package Challenge_14_Test;
+package Challenge_15_Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import org.testng.annotations.*;
 
 import java.time.Duration;
 
-public class TestBase_14
+public class TestBase_15
 
 {
 
@@ -38,7 +38,7 @@ public class TestBase_14
 
         AlyDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-        AlyDriver.navigate().to("https://www.amazon.com/");
+        AlyDriver.navigate().to("https://codebase.show/projects/realworld");
         AlyDriver.manage().window().maximize();
 
     }
