@@ -1,5 +1,6 @@
-package Challenge_19_Test;
+package Challenge_19_Test.Runner;
 
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +14,7 @@ import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 
-public class TestBase_19
+public class TestBase_19 extends AbstractTestNGCucumberTests    //importaaaaaaaant to extend that here
 {
 
     public static WebDriver AlyDriver;
