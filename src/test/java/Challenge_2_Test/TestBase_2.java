@@ -47,8 +47,11 @@ public class TestBase_2 {
 
     @AfterClass
 
-    public void logout() {
-        AlyDriver.quit();
+    public void logout()
+    {
+        AlyDriver.quit();      // law 3ayez te2fel el browser 5ales.
+
+        // AlyDriver.close();     // law 3ayez te2fel tab wa7da bs mn el tabs almafto7a.
     }
 
 
