@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name = "Regression Suite">
+<suite name = "Zeft Suite" parallel="methods" thread-count="2">
     <parameter name="Browser" value="Chrome"/>
 
-    <test name = "Regression Test">
-        <parameter name="BaseURL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+<!--    <test name = "Zeft1 Test">-->
+<!--        <classes>-->
+<!--            <class name = "Challenge_21_Test.Ch21_ParallelTesting_Positive"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
+    <test name = "Zeft2 Test">
         <classes>
-            <class name = "project.TestRun"/>
+            <class name = "Challenge_21_Test.Ch21_ParallelTesting_Negative"/>
         </classes>
     </test>
-
-
-
-    <test name = "Regression Test">
-        <parameter name="BaseURL1" value="https://courses.letskodeit.com/practice"/>
-
-        <classes>
-            <class name = "project.TestRun"/>
-        </classes>
-    </test>
-
-
-
 </suite>
 
 
