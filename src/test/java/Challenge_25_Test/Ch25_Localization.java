@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class Ch25_Localization extends TestBase_25
 {
 
-    // run from XML file "zeft 3 & 4 & 5"
+    // run from XML file "XML_Ch25"
 
     Ch25_Page Ch25obj;
 
@@ -23,6 +23,7 @@ public class Ch25_Localization extends TestBase_25
         Assert.assertEquals(Ch25obj.HelloSignin.getText(),"Hello, sign in");
     }
 
+
     @Test(priority = 2)
     public void LocalizationDE()
     {
@@ -33,8 +34,8 @@ public class Ch25_Localization extends TestBase_25
 
 //        System.out.println(Ch25obj.HelloSignin.getText());
         Assert.assertEquals(Ch25obj.HelloSignin.getText(),"Hallo, anmelden");
-
     }
+
 
     @Test(priority = 3)
     public void LocalizationES()
@@ -46,6 +47,5 @@ public class Ch25_Localization extends TestBase_25
 
 //        System.out.println(Ch25obj.HelloSignin.getText());
         Assert.assertEquals(Ch25obj.HelloSignin.getText(),"Hola, Identifícate");
-
     }
 }

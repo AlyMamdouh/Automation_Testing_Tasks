@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-
-
-
-
-<!--<suite name = "Zeft Suite" parallel="methods" thread-count="2">-->
-<!--    <parameter name="Browser" value="Chrome"/>-->
-<!--    -->
-<!--    -->
-<!--    <test name = "Zeft1 Test">-->
-<!--        <classes>-->
-<!--            <class name = "Challenge_21_Test.Ch21_ParallelTesting_Positive"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name = "Zeft2 Test">-->
-<!--        <classes>-->
-<!--            <class name = "Challenge_21_Test.Ch21_ParallelTesting_Negative"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--</suite>-->
-
-
-
-
-
-
-
-
-
-
-
 <suite name = "khara Suite">
     <parameter name="Browser" value="Chrome"/>
 
@@ -81,6 +48,3 @@
 
 
 </suite>
-
-
-
