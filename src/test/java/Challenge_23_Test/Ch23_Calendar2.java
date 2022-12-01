@@ -31,6 +31,7 @@ public class Ch23_Calendar2 extends TestBase_23
 
 //        Ch23obj.Day5.click();
 //        or..
+
         String x = "12";                                      // rkm el yom elle ba5taro
         for(int i=0;i<Ch23obj.daysss.size();i++)
         {

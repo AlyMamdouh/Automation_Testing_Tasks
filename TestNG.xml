@@ -1,19 +1,86 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name = "Zeft Suite" parallel="methods" thread-count="2">
-    <parameter name="Browser" value="Chrome"/>
 
+
+
+
+
+<!--<suite name = "Zeft Suite" parallel="methods" thread-count="2">-->
+<!--    <parameter name="Browser" value="Chrome"/>-->
+<!--    -->
+<!--    -->
 <!--    <test name = "Zeft1 Test">-->
 <!--        <classes>-->
 <!--            <class name = "Challenge_21_Test.Ch21_ParallelTesting_Positive"/>-->
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name = "Zeft2 Test">
+<!--    <test name = "Zeft2 Test">-->
+<!--        <classes>-->
+<!--            <class name = "Challenge_21_Test.Ch21_ParallelTesting_Negative"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--</suite>-->
+
+
+
+
+
+
+
+
+
+
+
+<suite name = "khara Suite">
+    <parameter name="Browser" value="Chrome"/>
+
+
+
+    <test name = "Zeft3 Test">
+        <parameter name="lang" value="EN"/>
+
         <classes>
-            <class name = "Challenge_21_Test.Ch21_ParallelTesting_Negative"/>
+            <class name = "Challenge_25_Test.Ch25_Localization">
+                <methods>
+                    <include name="LocalizationEN"/>
+                </methods>
+            </class>
         </classes>
     </test>
+
+
+
+    <test name = "Zeft4 Test">
+        <parameter name="lang" value="DE"/>
+
+        <classes>
+            <class name = "Challenge_25_Test.Ch25_Localization">
+                <methods>
+                    <include name="LocalizationDE"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+    <test name = "Zeft5 Test">
+        <parameter name="lang" value="ES"/>
+
+        <classes>
+            <class name = "Challenge_25_Test.Ch25_Localization">
+                <methods>
+                    <include name="LocalizationES"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
 </suite>
+
 
 
