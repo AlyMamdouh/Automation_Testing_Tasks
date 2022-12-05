@@ -9,12 +9,6 @@
 
     <test name = "Zeft1 Test">
         <classes>
-            <class name = "Challenge_21_Test.Ch21_ParallelTesting_Positive"/>
-        </classes>
-    </test>
-
-    <test name = "Zeft2 Test">
-        <classes>
             <class name = "Challenge_21_Test.Ch21_ParallelTesting_Negative"/>
         </classes>
     </test>

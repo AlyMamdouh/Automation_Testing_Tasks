@@ -14,7 +14,12 @@ import java.time.Duration;
 public class TestBase_21
 {
 
-    public static WebDriver AlyDriver;
+    public static ThreadLocal <WebDriver> AlyDriver = new ThreadLocal<>();
+
+    public WebDriver GET_Driver()
+    {
+        return AlyDriver.get();
+    }
 
 
     @BeforeMethod
@@ -23,23 +28,26 @@ public class TestBase_21
         if (BrowserName.equalsIgnoreCase("Chrome"))
         {
             WebDriverManager.chromedriver().setup();
-            AlyDriver = new ChromeDriver();
+            AlyDriver.set(new ChromeDriver());
 
         }
         else if (BrowserName.equalsIgnoreCase("Firefox"))
         {
             WebDriverManager.firefoxdriver().setup();
-            AlyDriver = new FirefoxDriver();
+            AlyDriver.set(new FirefoxDriver());
+
         }
         else if (BrowserName.equalsIgnoreCase("IE"))
         {
             WebDriverManager.iedriver().setup();
-            AlyDriver = new InternetExplorerDriver();
+            AlyDriver.set(new InternetExplorerDriver());
+
         }
         else if (BrowserName.equalsIgnoreCase("Safari"))
         {
             WebDriverManager.safaridriver().setup();
-            AlyDriver = new SafariDriver();
+            AlyDriver.set(new SafariDriver());
+
         }
 
         //Headless Browser Testing
@@ -50,14 +58,14 @@ public class TestBase_21
             options.addArguments("--window-size=1920,1080");
 
             WebDriverManager.chromedriver().setup();
-            AlyDriver = new ChromeDriver (options);
+            AlyDriver.set(new ChromeDriver(options));
         }
 
 
-        AlyDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        GET_Driver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        AlyDriver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        AlyDriver.manage().window().maximize();
+        GET_Driver().navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        GET_Driver().manage().window().maximize();
 
     }
 

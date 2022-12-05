@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "khara Suite">
+    <parameter name="Browser" value="Chrome"/>
+
+
+
+    <test name = "Zeft3 Test">
+        <parameter name = "BaseURL" value="https://www.amazon.com/"/>
+
+        <classes>
+            <class name = "Challenge_Master1_Test.BrokenLinks_Test"/>
+        </classes>
+    </test>
+
+
+    <test name = "Zeft4 Test">
+        <parameter name = "BaseURL" value="https://www.demoblaze.com/"/>
+
+        <classes>
+            <class name = "Challenge_Master1_Test.BrokenLinks_Test"/>
+        </classes>
+    </test>
+
+    
+</suite>
