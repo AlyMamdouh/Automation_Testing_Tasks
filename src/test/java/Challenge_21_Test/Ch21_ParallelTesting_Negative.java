@@ -19,13 +19,13 @@ public class Ch21_ParallelTesting_Negative extends TestBase_21
         Ch21obj.usernamee.sendKeys("Admin");
         Ch21obj.passwordd.sendKeys("admin123");
         Ch21obj.logginn.click();
-//        Thread.sleep(2000);
-//
-//
-//        Ch21obj.UserLogo.click();
-//        Thread.sleep(2000);
-//        Assert.assertEquals(Ch21obj.Logoutt.getText(),"Logout");
-//        System.out.println(Ch21obj.Logoutt.getText());
+        Thread.sleep(2000);
+
+
+        Ch21obj.UserLogo.click();
+        Thread.sleep(2000);
+        Assert.assertEquals(Ch21obj.Logoutt.getText(),"Logout");
+        System.out.println(Ch21obj.Logoutt.getText());
 
     }
     @Test

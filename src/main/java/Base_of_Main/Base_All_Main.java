@@ -16,3 +16,12 @@ public class Base_All_Main {
         button.click();
     }
 }
+
+
+// for Allure report (video :https://www.youtube.com/watch?v=5b4ZMAjHitw&t=1315s)
+// 1- delete the "allure-results" file
+// 2- execute the tests you want to make allure report for
+// 3- get the path of allure result   (C:\Users\aabdelhamid\IdeaProjects\TCoETraining\allure-results)
+// 4- write in CMD --> allure serve C:\Users\aabdelhamid\IdeaProjects\TCoETraining\allure-results
+
+// to check the version of allure you have .. write in CMD --> allure --version
