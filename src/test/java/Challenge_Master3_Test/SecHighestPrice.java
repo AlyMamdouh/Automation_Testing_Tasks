@@ -37,7 +37,8 @@ public class SecHighestPrice extends TestBase_Master3
 
 
     @Test
-    public void Highest_Sec_Price() throws InterruptedException {
+    public void Highest_Sec_Price() throws InterruptedException
+    {
         sauceobj = new Master3_Page(AlyDriver);
 
         sauceobj.Username.sendKeys("standard_user");
