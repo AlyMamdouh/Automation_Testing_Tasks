@@ -24,4 +24,9 @@ public class Base_All_Main {
 // 3- get the path of allure result   (C:\Users\aabdelhamid\IdeaProjects\TCoETraining\allure-results)
 // 4- write in CMD --> allure serve C:\Users\aabdelhamid\IdeaProjects\TCoETraining\allure-results
 
+// to check the version of Java you have .. write in CMD --> java -version
 // to check the version of allure you have .. write in CMD --> allure --version
+
+// to run the test XML file through the CMD .. add the XML name in the pom plug-in, then write "mvn clean test" in CMD and enter
+
+

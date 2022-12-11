@@ -151,6 +151,6 @@
     <orderEntry type="library" name="Maven: tech.grasshopper:table-layout:1.5.1" level="project" />
     <orderEntry type="library" name="Maven: tech.grasshopper:rest-assured-cucumber-pdf-report:1.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.15.3" level="project" />
-    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.18" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.24" level="project" />
   </component>
 </module>
